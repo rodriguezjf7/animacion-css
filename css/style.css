@@ -1,0 +1,67 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.body{
+    font-family: 'Archivo Black' , sans-serif;
+    font-size: 2rem;
+}
+
+.titulo{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+
+    background: blue;
+    color: aliceblue;
+    
+}
+
+.subtitulo{
+    display: flex;
+    
+    width: 20%;
+    height: 20%;
+    border: 2px solid #ccc;
+    ;
+    /* animation-name: animar;
+    animation-duration: 6s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite; */
+    
+}
+
+/* @keyframes animar{
+
+    0%{
+        transform: scale(.2);
+        animation-play-state: paused;
+        
+    }
+    50%{
+        transform: scale(.5);
+        border-radius: 100%;
+        animation-delay: 4s;
+        background: yellow;
+        animation-play-state: paused;
+    }
+} */
+
+.subtitulo2{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background: red;
+    
+}
+
+
